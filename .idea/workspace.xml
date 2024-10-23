@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1426e8bb-57e3-4233-bb69-b49391c23f1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
+    <list default="true" id="1426e8bb-57e3-4233-bb69-b49391c23f1b" name="Changes" comment="part1">
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/NameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/NameRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,11 +95,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729668107407</updated>
-      <workItem from="1729668108468" duration="9244000" />
+      <workItem from="1729668108468" duration="9585000" />
     </task>
+    <task id="LOCAL-00001" summary="part1">
+      <option name="closed" value="true" />
+      <created>1729704723585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729704723585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part1" />
   </component>
 </project>

@@ -6,9 +6,9 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(NameRepository.getSize());
-        NameRepository.setName(new String[]{"fafa khaleghi"});
-        NameRepository.clear();
+        NameRepository.setName(new String[]{"fafa khaleghi", "Else"});
+        //NameRepository.clear();
         System.out.println("findAll: " + Arrays.toString(NameRepository.findAll()));
+        System.out.println(NameRepository.getSize());
     }
 }

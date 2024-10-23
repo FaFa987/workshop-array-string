@@ -14,14 +14,14 @@ public class NameRepository {
 
     public static void setName(String[] names) {
         NameRepository.names = names;
-        System.out.println(Arrays.toString(NameRepository.names));
+        //System.out.println(Arrays.toString(NameRepository.names));
 
 
     }
 
     public static void clear() {
         NameRepository.names = new String[0];
-        System.out.println(Arrays.toString(NameRepository.names));
+        //System.out.println(Arrays.toString(NameRepository.names));
     }
 
     public static String[] findAll() {

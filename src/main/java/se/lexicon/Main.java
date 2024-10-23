@@ -10,5 +10,8 @@ public class Main {
         //NameRepository.clear();
         System.out.println("findAll: " + Arrays.toString(NameRepository.findAll()));
         System.out.println(NameRepository.getSize());
+        System.out.println("find: " + NameRepository.find("else"));
+        System.out.println("add: " + NameRepository.add("new"));
+        System.out.println(NameRepository.getSize());
     }
 }

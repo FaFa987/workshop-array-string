@@ -13,5 +13,8 @@ public class Main {
         System.out.println("find: " + NameRepository.find("else"));
         System.out.println("add: " + NameRepository.add("new"));
         System.out.println(NameRepository.getSize());
+        System.out.println("update: " + NameRepository.update("eric","new"));
+
+
     }
 }

@@ -47,5 +47,41 @@ public class NameRepository {
         names[names.length - 1] = fullName;
         return true;
     }
+
+    public static boolean update(final String original, final String updatedName) {
+        if(find(updatedName) != null) {
+            return false;
+        }
+        for (int i = 0; i < names.length; i++) {
+            if (names[i].equalsIgnoreCase(original)) {
+                names[i] = updatedName;
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+    public static boolean remove(final String fullName){
+
+
+        for(String s : names) {
+            String[] example = new String[names.length-1];
+            boolean found = false;
+            int index = 0;
+            for (int i = 0; i < names.length; i++) {
+                if (names[i].equalsIgnoreCase(s)) {
+                    found = true;
+                }
+            }
+        }
+        return true;
+    }
+
+
 }
+
+
+
+
 
